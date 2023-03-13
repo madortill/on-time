@@ -3,19 +3,12 @@
     height: 22vh;
     background-color: blue;
     margin: 0.5vh 0.5vw;
+    cursor: pointer;
 }
-
-/* .option:hover {
-    animation: hoverAnimation 1s;
-}
-
-.option:not(:hover) {
-    animation: endHoverAnimation 2s;
-} */
 
 @keyframes hoverAnimation {
     100% {
-        transform: scale(110%, 110%);
+        transform: scale(105%, 105%);
         -webkit-box-shadow:0px 0px 14px 6px rgba(255,255,255,0.79);
         -moz-box-shadow: 0px 0px 14px 6px rgba(255,255,255,0.79);
         box-shadow: 0px 0px 14px 6px rgba(255,255,255,0.79);
@@ -24,7 +17,7 @@
 
 @keyframes endHoverAnimation {
     0% {
-        transform: scale(110%, 110%);
+        transform: scale(105%, 105%);
         -webkit-box-shadow:0px 0px 14px 6px rgba(255,255,255,0.79);
         -moz-box-shadow: 0px 0px 14px 6px rgba(255,255,255,0.79);
         box-shadow: 0px 0px 14px 6px rgba(255,255,255,0.79);

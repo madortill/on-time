@@ -1,0 +1,24 @@
+.design-page {
+    display: flex;
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 15vh;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1vh 5vw;
+    justify-content: space-between;
+}
+
+.main-header {
+    color: white;
+    font-size: 5vmax;
+    margin: 0.5vh 0;
+}
+
+.second-header {
+    color: rgb(229, 229, 229);
+    font-size: 2vmax;
+    margin: 0.2vh 0;
+    font-weight: 100;
+}

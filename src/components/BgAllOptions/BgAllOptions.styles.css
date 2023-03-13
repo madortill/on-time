@@ -1,0 +1,9 @@
+.bg-all-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    width: 90vw;
+    height: 50vh;
+}
